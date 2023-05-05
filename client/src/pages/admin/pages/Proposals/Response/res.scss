@@ -1,0 +1,79 @@
+.nine {
+  width: 88%;
+  margin: 0 auto;
+  height: 100vh;
+  // display: none;
+}
+.NO {
+  font-size: 48px;
+  margin-top: -80px;
+  width: 100%;
+  float: left;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+
+span {
+  display: inline-block;
+}
+
+.bigBox {
+  margin-top: 150px;
+  position: relative;
+}
+.ProInfo {
+  float: left;
+  font-size: 20px;
+}
+.OrgInfo {
+  float: right;
+  color: black;
+  font-size: 20px;
+  padding-top: 18px;
+}
+
+.project-item {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+
+h3 {
+  margin-left: 1rem;
+}
+
+.project-item-title {
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+// .OrgInfo .project-item-title {
+//   font-weight: bold;
+// }
+
+.text {
+  position: flex;
+  bottom: 0;
+  left: 1;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.backButtonContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.backButton {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.backButton:hover {
+  background-color: orange;
+  color: #fff;
+  border-color: orange;
+}

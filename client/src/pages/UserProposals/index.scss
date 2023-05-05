@@ -1,0 +1,42 @@
+.prop1 {
+  font-size: 48px;
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+.eight1 {
+  width: 100% !important;
+  margin: 0 auto;
+}
+.ban1 {
+  width: 80% !important;
+  height: 100vh;
+}
+.search-box1 {
+  width: 260px;
+}
+.export1 {
+  background-color: orange;
+  float: right;
+  top: -30px;
+}
+
+.table_prop {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 100% !important;
+  max-width: 1200px !important;
+}
+
+.edit-button {
+  background-color: white;
+  border: 1px solid #1890ff;
+  color: #1890ff;
+
+  &:hover {
+    background-color: #f0f5ff;
+  }
+}

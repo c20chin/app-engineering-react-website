@@ -1,0 +1,192 @@
+.title {
+    font-size: 48px;
+    margin-top: 60px;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 32px;
+  }
+
+  .search-and-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+  }
+  
+  
+  .search-projects {
+    margin-left: 40px;
+    flex-grow: 1;
+    width: 300px;
+  }
+  .search-projects .ant-input-affix-wrapper.css-dev-only-do-not-override-ph9edi {
+    width: 370px;
+    margin-left: 0px;
+  }
+  
+
+.filters {
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: left;
+    margin-right: 40px;
+} 
+
+@media screen and (max-width: 768px) {
+  .search-projects {
+    margin-left: 10px;
+  }
+
+  .filters {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-projects {
+    margin-left: -30px;
+  }
+
+  .filters {
+    margin-right: -30px;
+  }
+}
+
+
+.filter-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    height: 280px;
+    background-color: #f8f8f8;
+  }
+
+  
+  .form-row {
+    /* margin-bottom: 10px;
+    display: flex;
+    align-items: center; */
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+
+  
+  .form-row label {
+    margin-right: 10px;
+  }
+  
+  .checkbox {
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  }
+  
+  .checkbox label {
+    margin-right: 5px;
+  }
+
+  
+.apply-btn {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+  
+.apply-btn:hover {
+    background-color: orange !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+  
+.display-flex {
+    display: flex;
+    justify-content: right;
+}
+
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before {
+  content: '\2714';
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+}
+
+.column {
+  /* display: inline-block;
+  vertical-align: top;
+  margin-right: 20px; */
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-3{
+  margin-top: 60px;
+  z-index: -1;
+}
+  
+.content {
+  height: auto;
+}
+
+.standardized {
+  margin-bottom: 10px;
+  height: 800px;
+}
+
+.card-description {
+  height: 500px; 
+  overflow: auto;
+}
+
+.card-list-row {
+  padding-bottom: 40px;
+  padding: 0 20px 40px;
+}
+
+.card-wrapper {
+  margin: 0 20px; 
+}
+
+@media screen and (max-width: 768px) {
+  .card-wrapper {
+    margin: 0 5px; 
+  }
+}
+

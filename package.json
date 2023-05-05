@@ -1,0 +1,29 @@
+{
+  "name": "comp0067_2023_team10",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "node ./server/server.js",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCLComputerScience/COMP0067_2023_Team10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCLComputerScience/COMP0067_2023_Team10/issues"
+  },
+  "homepage": "https://github.com/UCLComputerScience/COMP0067_2023_Team10#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "googleapis": "^114.0.0",
+    "if-env": "^1.0.4",
+    "mailgen": "^2.0.27",
+    "mdb-react-ui-kit": "^5.1.0",
+    "nodemailer": "^6.9.1"
+  }
+}

@@ -1,0 +1,78 @@
+.eight {
+  width: 90%;
+  margin: 0 auto;
+  // background-color: pink;
+}
+.ban {
+  height: 100vh;
+}
+
+.banner {
+  height: 195px;
+  background: center/cover url('../../../../assets/bg.png');
+  position: relative;
+}
+
+.t {
+  position: absolute;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  // font-size: 40px;
+}
+
+.mm {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: -15px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  background: transparent;
+}
+
+:where(
+    .css-dev-only-do-not-override-10ed4xt .mm
+  ).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-10ed4xt).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-submenu-selected {
+  background-color: transparent;
+}
+
+// :where(.css-dev-only-do-not-override-10ed4xt).ant-menu-horizontal
+//   .ant-menu-item,
+// :where(.css-dev-only-do-not-override-10ed4xt).ant-menu-horizontal
+//   .ant-menu-submenu {
+//   padding-inline: 8px;
+// }
+
+.mm {
+  margin-left: -15px;
+}
+.b {
+  background: transparent;
+  color: white;
+  font-weight: bold;
+}
+
+.add_new {
+  margin-left: 30px;
+  top: -10px;
+  margin-top: 40px;
+}
+
+:where(.css-dev-only-do-not-override-ph9edi).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-ph9edi).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-submenu-selected {
+  color: #fff;
+  background-color: transparent;
+}
+
+.link-active {
+  color: orange;
+  background: transparent;
+  font-weight: bold;
+}
